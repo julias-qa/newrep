@@ -1,4 +1,4 @@
-package com.company;
+package com.company.animals;
 
 import com.company.animals.Bond;
 
