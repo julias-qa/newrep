@@ -2,23 +2,25 @@ package com.company.animals;
 
 public class Bond {
     public void eat() {
-        System.out.println("give food!");
+        toString("give food!");
     }
 
     public void food()  {
-        System.out.println("take it");
+        toString("take it");
     }
 
     public void nofood()  {
-        System.out.println("stop it!");
+        toString("stop it!");
     }
 
     public void play(boolean b) {
         if (b == true) {
-            System.out.println("Destroy this world!");
+            toString("Destroy this world!");
+        } else {
+            toString("really, dude?");
         }
-        if (b == false) {
-            System.out.println("really, dude?");
-        }
+    }
+    private void toString(String info) {
+        System.out.println(info);
     }
 }
