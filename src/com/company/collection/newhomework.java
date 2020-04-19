@@ -16,8 +16,8 @@ public class newhomework {
         queue.offer("Instance");
         queue.offer("Shift");
 
-        while ((town = queue.poll()) != null) { //сначала прописала peek, но тогда выводится первый элемент очереди бесконечно, т.к. никогда не NULL, а poll возвращает головной элемент и как бы "вырезает" его
-            System.out.println(town); //почему выводится весь список, а не только первый элемент - неясно :(
+        while ((town = queue.poll()) != null) { //сначала прописала peek, но тогда выводится первый элемент очереди бесконечно
+            System.out.println(town);
         }
     }
 }
